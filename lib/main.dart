@@ -5,21 +5,32 @@ import 'package:http/http.dart';
 import 'package:zuiz_app_flutter/pages/ContainerApp.dart';
 import 'package:zuiz_app_flutter/pages/ImageDemo.dart';
 import 'package:zuiz_app_flutter/pages/ListDemo.dart';
+import 'package:zuiz_app_flutter/pages/aligncontainerdemo.dart';
 import 'package:zuiz_app_flutter/pages/cardSample.dart';
+import 'package:zuiz_app_flutter/pages/columncontainerdemo.dart';
+import 'package:zuiz_app_flutter/pages/containercenterdemo2.dart';
+import 'package:zuiz_app_flutter/pages/containerdemo1.dart';
 import 'package:zuiz_app_flutter/pages/cupertinoSample.dart';
 import 'package:zuiz_app_flutter/pages/cupertinobuttondemo.dart';
 import 'package:zuiz_app_flutter/pages/cupertinotabbar.dart';
 import 'package:zuiz_app_flutter/pages/drawerDemo.dart';
+import 'package:zuiz_app_flutter/pages/fittedboxdemo.dart';
+import 'package:zuiz_app_flutter/pages/gradviewdemo.dart';
 import 'package:zuiz_app_flutter/pages/horizontallist.dart';
 import 'dart:io';
 import 'package:zuiz_app_flutter/pages/gridViewDemo.dart';
+import 'package:zuiz_app_flutter/pages/limitedboxdemo.dart';
+import 'package:zuiz_app_flutter/pages/listviewdemo.dart';
 import 'dart:convert';
 import 'package:zuiz_app_flutter/pages/loginpage.dart';
+import 'package:zuiz_app_flutter/pages/nestedcontainerdemo.dart';
 import 'package:zuiz_app_flutter/pages/popupmenu.dart';
+import 'package:zuiz_app_flutter/pages/rowcontainerdemo.dart';
 import 'package:zuiz_app_flutter/pages/snackbar.dart';
 import 'package:zuiz_app_flutter/pages/tabControllerSample.dart';
 import 'package:zuiz_app_flutter/pages/tabbardemo.dart';
 import 'package:zuiz_app_flutter/pages/textfielddemo.dart';
+import 'package:zuiz_app_flutter/pages/wrapdemo.dart';
 
 void main() {
   runApp(
@@ -27,22 +38,42 @@ void main() {
 //      title: "image demo",
 //      home: ImageDemo()
 //    )
-    //     new HorizontalListDemo());
-    // new DefaultTabControllerSample());
-    // new PopupMenuSample());
-    //new SnackBarSample());
-    // new TextFieldSample());
-    //new CardSample());
-    //new CupertinoSample());
-      new CupertinoTabBarSample());
-  //); //  MaterialApp(
+      //     new HorizontalListDemo());
+      // new DefaultTabControllerSample());
+      // new PopupMenuSample());
+      //new SnackBarSample());
+      // new TextFieldSample());
+      //new CardSample());
+      //new CupertinoSample());
+      //new CupertinoTabBarSample());
+      //); //  MaterialApp(
 //    title: 'card....',
 //    home: CardSample()
 //  ));
-//      MaterialApp(
-//    title: '抽屉测试',
-//    home: DrawerSample(),
-//  ));
+      MaterialApp(
+//    title: 'container测试',
+//    home: ContainerDemo1(),
+//        title: '居中测试',
+//        home: CenterContainerDemo(),
+//    title: 'Padding填充布局示例',
+//    home: NestedContainerDemo(),
+//    title: 'Align对齐布局',
+//    home: AlignContainerDemo(),
+//    title: '水平布局',
+//    home: RowContainerDemo(),
+//    title: '垂直布局',
+//        home: ColumnContainerDemo(),
+//    title: 'FittedBox缩放布局',
+//    home: FittedBoxDemo(),
+//    title: 'LimitedBox限定宽高布局',
+//    home: LimitedBoxDemo(),
+//    title: 'ListView布局',
+//    home: ListViewDemo(),
+//    title: 'GridView九宫格布局',
+//    home: GridViewDemo(),
+        title: 'Wrap按宽高自动换行布局',
+        home: WrapDemo(),
+  ));
 }
 
 class LayoutDemo extends StatelessWidget {

@@ -14,7 +14,7 @@ class ContainerApp extends StatelessWidget {
             width: 200,
             height: 200,
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Colors.grey, // 背景色
               border: new Border.all(
                 color: Colors.grey,
                 width: 8,
