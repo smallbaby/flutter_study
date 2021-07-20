@@ -13,8 +13,10 @@ import 'package:zuiz_app_flutter/pages/containerdemo1.dart';
 import 'package:zuiz_app_flutter/pages/cupertinoSample.dart';
 import 'package:zuiz_app_flutter/pages/cupertinobuttondemo.dart';
 import 'package:zuiz_app_flutter/pages/cupertinotabbar.dart';
+import 'package:zuiz_app_flutter/pages/dismissibledemo.dart';
 import 'package:zuiz_app_flutter/pages/drawerDemo.dart';
 import 'package:zuiz_app_flutter/pages/fittedboxdemo.dart';
+import 'package:zuiz_app_flutter/pages/gesturedetectordemo.dart';
 import 'package:zuiz_app_flutter/pages/gradviewdemo.dart';
 import 'package:zuiz_app_flutter/pages/horizontallist.dart';
 import 'dart:io';
@@ -23,7 +25,9 @@ import 'package:zuiz_app_flutter/pages/limitedboxdemo.dart';
 import 'package:zuiz_app_flutter/pages/listviewdemo.dart';
 import 'dart:convert';
 import 'package:zuiz_app_flutter/pages/loginpage.dart';
+import 'package:zuiz_app_flutter/pages/meijingdemo.dart';
 import 'package:zuiz_app_flutter/pages/nestedcontainerdemo.dart';
+import 'package:zuiz_app_flutter/pages/opacitydemo.dart';
 import 'package:zuiz_app_flutter/pages/popupmenu.dart';
 import 'package:zuiz_app_flutter/pages/rowcontainerdemo.dart';
 import 'package:zuiz_app_flutter/pages/snackbar.dart';
@@ -50,6 +54,7 @@ void main() {
 //    title: 'card....',
 //    home: CardSample()
 //  ));
+      //new LandscapeDemo());
       MaterialApp(
 //    title: 'container测试',
 //    home: ContainerDemo1(),
@@ -71,8 +76,15 @@ void main() {
 //    home: ListViewDemo(),
 //    title: 'GridView九宫格布局',
 //    home: GridViewDemo(),
-        title: 'Wrap按宽高自动换行布局',
-        home: WrapDemo(),
+
+//        title: 'Wrap按宽高自动换行布局',
+//        home: WrapDemo(),
+//    title: '手势测试',
+//    home: GestureDetectorDemo(),
+//    title: '滑动删除',
+//    home: DismissibleDemo(),
+    title: '滑动删除',
+    home: OpacityDemo(),
   ));
 }
 
