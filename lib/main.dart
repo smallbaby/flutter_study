@@ -29,6 +29,7 @@ import 'package:zuiz_app_flutter/pages/meijingdemo.dart';
 import 'package:zuiz_app_flutter/pages/nestedcontainerdemo.dart';
 import 'package:zuiz_app_flutter/pages/opacitydemo.dart';
 import 'package:zuiz_app_flutter/pages/popupmenu.dart';
+import 'package:zuiz_app_flutter/pages/routedemo1.dart';
 import 'package:zuiz_app_flutter/pages/rowcontainerdemo.dart';
 import 'package:zuiz_app_flutter/pages/snackbar.dart';
 import 'package:zuiz_app_flutter/pages/tabControllerSample.dart';
@@ -83,8 +84,10 @@ void main() {
 //    home: GestureDetectorDemo(),
 //    title: '滑动删除',
 //    home: DismissibleDemo(),
-    title: '滑动删除',
-    home: OpacityDemo(),
+//    title: '滑动删除',
+//    home: OpacityDemo(),
+    title: '导航测试',
+    home: RouteChangeFirstScreen(),
   ));
 }
 

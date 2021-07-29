@@ -58,6 +58,8 @@ flutter:
      - images/8.jpg
      - images/9.jpg
      - images/meijing.png
+     # 加载页面图片资源
+     -
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
